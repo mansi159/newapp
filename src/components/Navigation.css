@@ -1,0 +1,24 @@
+.nav {
+    height: 71px;
+    box-shadow: 0px 1px 8px #888888;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 56px; /* 80% of nav height (71px * 0.8) */
+    object-fit: contain;
+}
